@@ -1,3 +1,24 @@
 body {
     font-family: 'Courier New', Courier, monospace;
 }
+a:link {
+    color: brown;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:visited {
+    color: lightcoral;
+    background-color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellowgreen;
+    background-color: navy;
+}
+a:active {
+    color: beige;
+    background-color: brown;
+    text-decoration: line-through;
+}
