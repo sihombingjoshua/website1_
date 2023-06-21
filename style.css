@@ -22,3 +22,9 @@ a:active {
     background-color: brown;
     text-decoration: line-through;
 }
+
+table, th, td {
+    border: 1px solid black ;
+    border-collapse: collapse;
+    border-color: black;
+}
