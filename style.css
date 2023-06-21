@@ -1,6 +1,13 @@
 body {
     font-family: 'Courier New', Courier, monospace;
 }
+
+h1 {
+    text-align: center;
+    color: beige;
+    background-color: brown;
+}
+
 a:link {
     color: brown;
     text-decoration: none;
@@ -24,7 +31,12 @@ a:active {
 }
 
 table, th, td {
+    background-color: rgb(201, 87, 87);
     border: 1px solid black ;
     border-collapse: collapse;
     border-color: black;
+}
+
+td:hover, th:hover {
+    background-color: brown;
 }
